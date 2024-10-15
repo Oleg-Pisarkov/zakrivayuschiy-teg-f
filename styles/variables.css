@@ -1,1 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main__font: "Inter-Variable.woff2";
+  --accent__font: "PressStart2P-Regular.woff" ;
+  --weight__Regular: 400; 
+  --weight__Bold: 465; 
+  --weight__Extra-Bold: 785; 
+
+}
