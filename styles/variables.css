@@ -2,8 +2,31 @@
 :root {
   --main__font: "Inter-Variable.woff2";
   --accent__font: "PressStart2P-Regular.woff" ;
-  --weight__Regular: 400; 
-  --weight__Bold: 465; 
-  --weight__Extra-Bold: 785; 
-
+  --weight__light__title: 700;
+  --weight__light__main-text: 400;
+  --weight__dark__title: 785;
+  --weight__dark__main-text: 465;
+  --background-color: #fff;
+  --accent-color: #000;
+  --background-image: 
+  repeating-linear-gradient(
+        to right, 
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ), 
+      repeating-linear-gradient(
+        to bottom, 
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        to bottom,
+        #e7e7e7 0.01%,
+        #1a1a1a
+      );
 }
+
