@@ -40,12 +40,18 @@
   background: var(--background-color);
   inline-size: clamp(23.4375rem, 16.2844rem + 30.520000000000003vw, 43.75rem);
   margin: 100px auto;
- 
-
 }
 
+@media (width <= 375px) {
+  .header {
+    margin: 106px auto;
+
+  }
+  
+
+}
 .header__container {
-  padding-block-start: 136px;
+  padding-block-start: clamp(7.5rem, 7.1484rem + 1.5vw, 8.5rem);
   text-align: center;
   
   
@@ -80,7 +86,7 @@
 
 .header__theme-menu {
   padding-block-start: 25px;
-  padding-block-end: 5px;
+  padding-block-end: 12px;
   display: grid;
   justify-content: center;
 
@@ -92,7 +98,7 @@
 }
 
 .theme-menu__item {
-  padding-block-end: 14px;
+  padding-block-end: 10px;
 
 }
 
@@ -160,9 +166,8 @@
 }
 
 .image {
-  inline-size: 694px;
-  block-size: 694px;
-  border: 2px solid #000;
+  inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
   object-position: center;
 
@@ -205,7 +210,7 @@
   font-size: 14px;
   text-transform: uppercase;
   color: var(--accent-color);
-  inset-inline-end: 25px;
+  inset-inline-end: clamp(0.8125rem, 0.5477rem + 1.13vw, 1.5625rem);
   inset-block-start: 25px;
   text-shadow: 1px -1px var(--background-color);
 
@@ -213,10 +218,17 @@
 
 .content__image {
   position: relative;
+  inline-size: clamp(23.4375rem, 16.2844rem + 30.520000000000003vw, 43.75rem);
+  block-size: clamp(23.4375rem, 16.2844rem + 30.520000000000003vw, 43.75rem);
+  border-block-end: 2px solid var(--accent-color);
+  border-block-start:2px solid var(--accent-color);
+  
 
 }
 
 .main {
+  inline-size: clamp(23.4375rem, 16.2844rem + 30.520000000000003vw, 43.75rem);
+  margin: auto;
   
  
 }
@@ -230,7 +242,6 @@
 .main__content-section  {
   background: var(--background-color);
   border: 2px solid var(--accent-color);
-  max-inline-size: 696px;
   align-self: center;
   font-family: var(--main__font);
   
@@ -240,10 +251,9 @@
 
 .content-title {
   font-weight: var(--weight__light__title);
-  text-align: start;
   padding: 5px 10px;
-  
   font-variation-settings: "wght" var(--weight__light__title);
+  
   
   
 
@@ -263,13 +273,10 @@
 
 .text {
   font-size: 18px;
-  
-  text-align: start;
-
 }
 
 .card__like-button {
-  padding: 8.5px 33px;
+  padding: 6.5px 36px;
   border: 2px solid var(--accent-color);
   background-color: var(--background-color);
 
@@ -280,7 +287,7 @@
   .main__button {
     display: flex;
     justify-content: end;
-    padding: 29px 25px;
+    padding: 32px 22px;
     gap: 9px;
 
   }
@@ -309,15 +316,27 @@
 
   }
 
+  .footer {
+    inline-size: clamp(19.125rem, 18.4875rem + 2.7199999999999998vw, 20.9375rem);
+    margin: clamp(4.3125rem, 4.6875rem + -1.6vw, 3.25rem) auto clamp(6.25rem, 6.1398rem + 0.47000000000000003vw, 6.5625rem);
+
+  }
+
   .footer__button {
     border: 2px solid #000;
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin: 44px auto 105px;
-    max-inline-size: 335px;
     background-color: var(--background-color);
-    padding: 19px 18px;
+    padding: 18px 17px;
+  }
+
+  @media (width <= 375px) {
+    .footer__button {
+      flex-direction: column;
+      align-items: center;
+    }
+
   }
 
   .footer__floppy {
