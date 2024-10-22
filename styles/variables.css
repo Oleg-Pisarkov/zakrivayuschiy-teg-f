@@ -8,6 +8,9 @@
   --weight__dark__main-text: 465;
   --background-color: #fff;
   --accent-color: #000;
+  --text-button: #fff;
+  --contour-heart: #000;
+  --main-heart: #FF0000;
   --background-image: 
   repeating-linear-gradient(
         to right, 
