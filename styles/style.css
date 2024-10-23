@@ -190,7 +190,8 @@
   -webkit-text-stroke: 1px var(--background-color);
   
 }
-@supports (text-stroke) or (-webkit-text-stroke) {
+
+@supports ((text-stroke) or (-webkit-text-stroke)) {
   .image__label {
     text-shadow: 1px -1px var(--background-color);
   }
