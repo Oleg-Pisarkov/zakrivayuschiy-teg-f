@@ -186,7 +186,6 @@
   color: var(--accent-color);
   inset-inline-end: clamp(0.8125rem, 0.5477rem + 1.13vw, 1.5625rem);
   inset-block-start: 25px;
-  text-stroke: 1px var(--background-color);
   -webkit-text-stroke: 1px var(--background-color);
   
 }
