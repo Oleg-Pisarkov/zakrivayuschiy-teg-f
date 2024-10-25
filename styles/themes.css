@@ -35,8 +35,17 @@
 
 
 :root.theme-light {
+  --main__font: "Inter-Variable";
+  --accent__font: "PressStart2P" ;
+  --weight__light__title: 700;
+  --weight__light__main-text: 400;
+  --weight__dark__title: 785;
+  --weight__dark__main-text: 465;
   --background-color: #fff;
   --accent-color: #000;
+  --button-text: #fff;
+  --contour-heart: #000;
+  --heart-main: #FF0000;
   --background-image: 
   repeating-linear-gradient(
         to right, 
@@ -62,10 +71,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #000;
-    --accent-color: #00cc14;
-    --weight__dark__title: 785;
-    --weight__dark__main-text: 465;
-    --background-image: 
+  --accent-color: #00cc14;
+  --button-text: #00cc14;
+  --contour-heart: #00cc14;
+  --background-image: 
   repeating-linear-gradient(
         to right, 
         #000 0,
@@ -82,9 +91,11 @@
       ),
       linear-gradient(
         to bottom,
-        #007f0c 
+        #007f0c 0.01%,
         #004306
       );
-    
-  }
 }
+}
+
+
+
