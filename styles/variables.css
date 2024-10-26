@@ -1,11 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main__font: "Inter-Variable";
-  --accent__font: "PressStart2P" ;
-  --weight__light__title: 700;
-  --weight__light__main-text: 400;
-  --weight__dark__title: 785;
-  --weight__dark__main-text: 465;
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P" ;
+  --title-font-weight: 700;
+  --main-text-font-weight:400;
   --background-color: #fff;
   --accent-color: #000;
   --button-text: #fff;
