@@ -277,14 +277,14 @@
 
 .like-icon:hover .main-body {
   fill: var(--contour-heart);
-  transition: 0.3s; 
+  transition: 0.3s;
   transition-delay: 0.05s;
   transition-timing-function: linear;
 }
 
 .like-icon:active .core {
   fill: var(--heart-main);
-  transition-duration: 0.3s; 
+  transition-duration: 0.3s;
   transition-timing-function: linear;
 }
 
