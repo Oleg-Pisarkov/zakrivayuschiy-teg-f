@@ -285,6 +285,7 @@
 .like-icon:active .core {
   fill: var(--heart-main);
   transition-duration: 0.3s;
+  transition-delay: 0.03s;
   transition-timing-function: linear;
 }
 
@@ -425,6 +426,7 @@
   position: relative;
   border: 2px solid var(--accent-color);
   background-color: var(--background-color);
+  transition-duration: 0.3s;
 }
 
 .button::after {
